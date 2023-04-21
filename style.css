@@ -1,0 +1,29 @@
+.header{
+    padding: 10px;
+    /* border: solid; */}
+    /* 0-9 , A-F characters Hexadecimal*/
+.header a{color: #aaa;}
+.header a:hover{ color: orange; text-transform: uppercase;}
+.col-3 button{
+    color: black;
+    font: bold;
+}
+.footer{
+    background-color: black;
+   text-align: center;
+    color: #fff;
+   
+}
+.footer a{
+    color: #fff;
+}
+.footer a:hover{
+    color: orange;
+}
+/* media query */
+@media screen and (max-width:576px){
+    .logo{
+        border: solid;
+        width: 100%;
+    }
+}
