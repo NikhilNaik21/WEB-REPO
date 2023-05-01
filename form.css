@@ -1,0 +1,104 @@
+h1{
+    border: solid rgb(23, 16, 16) 1px;
+    /* height: 7%; */
+    text-align: center;
+    margin-top: 15px;
+    width: 98%;
+    margin-left: 1%;
+    opacity: 90%;
+}
+img{
+    width: 15%;
+ 
+}
+/* div{
+    border: solid 1px;
+    margin-left: 25%;
+    width: 46%;
+    
+    background-color: #f2f2f2;;
+} */
+h5{
+    margin-left: 2%;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+#f5{
+    color: blue;
+    background-color: rgb(207, 250, 236);
+}
+
+span{
+    color: red;
+}
+#x1{
+    border-radius: 4px;
+    height: 25px;
+    border-style:solid;
+    width: 85%;
+    padding-bottom: 0%; 
+    margin-left: 10%;   
+}
+#x2{
+    border-radius: 4px;
+    height: 25px;
+    border-style:solid;
+    width: 85%;
+    padding-bottom: 0%; 
+    margin-left: 10%;   
+
+}
+#x5{
+    margin-left: 20%;
+}
+#x6{
+    color: gray;
+    background-color: rgb(22, 101, 228);
+
+}
+#x7{
+    margin-left: 2px;
+    margin-bottom: -2px;
+}
+#x8{
+    width: 11%;
+    margin-left:10%;
+}
+#x9{
+    color: black;
+    margin-left: -3%;
+}
+#X10{
+    margin-left: 10%;
+}
+#X11{
+    color: black;
+    margin-left: 10%;
+}
+button{
+    width: 60%;
+    height: 3%;
+    margin-left: 14%;
+    color: inherit;
+    background-color: rgb(116, 158, 248);
+
+}
+
+#x21{
+    
+        border: solid red 10px;
+        margin-left: 25%;
+        width: 46%;
+        background-color: #f2f2f2;;
+    
+}
+.col-12{
+    border: red 10px;
+    /* height: 200px; */
+    width: 51%;
+    margin-left: 24%;
+}
+#x15{
+    margin-left: -11%;
+    padding-top: 0.35%;
+    width: 25%;
+}
