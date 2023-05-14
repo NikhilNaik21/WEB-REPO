@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <title>whatsapp</title>
+    <link rel="stylesheet" href="whatsapp.css">
+    <script src="whatsapp.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+    <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script> -->
+    <script src="https://code.jquery.com/jquery-3.7.0.js" integrity="sha256-JlqSTELeR4TLqP0OG9dxM7yDPqX1ox/HfgiSLBj8+kM="
+    crossorigin="anonymous"></script>
+</head>
+
+<body>
+
+   <div class="container">
+    <div class="row">
+        <div id="x1" class="col-4"><img src="ccc.PNG" alt=""></div>
+        <div id="x2" class="col-4"><h2>Chats</h2> <br><br>
+        <div style="display: flex;background-color: rgb(57, 57, 57);"><img id="vd" src="varad.PNG" alt="" ><span style="color: azure;text-align: center;margin-left: 6px;margin-top: 6px;">Varad jade</span></div>
+        </div>
+        <div id="x3" class="col-4" >
+            <div id="div1">
+                <div class="msg-style">
+
+                </div>
+            </div>
+            <div id="div2"><input type="text" id="msg" placeholder="Type a message"  ></div>
+            <button onclick="addMsg(false)" class="btn-style">Send</button>
+            <button onclick="addMsg(true)" class="btn-style">Reply</button>
+            <input type="button" value="Happy" class="emoji-style" onclick="addEmoji(true,'h')" />
+            &nbsp;&nbsp;
+            <input type="button" value="Sad" class="emoji-style" onclick="addEmoji(false,'s')" />
+        </div>
+    </div>
+   </div>
+    <style>
+        .row{
+            display: flex;
+        }
+#x1{
+    border: solid black;
+    /* width: fit-content; */
+    height: 60%;
+}
+#x2{
+    border: solid black;
+    width: 40%;
+    background-color: rgb(51, 51, 51);
+    margin-bottom: 0.5%;
+}
+#x3{
+    border: solid 1px black;
+    background-image: url(bg.PNG);
+    width: 177%;
+    margin-left: 0%;
+    margin-top: 0%;
+    margin-bottom: 0.5%;
+}
+img{
+    height: 672px;
+}
+.container{
+height: 1000px;
+    border: solid black;
+}
+h2{
+    color: azure;
+    margin-left: 5%;
+}
+
+   
+
+#vd {
+    height: 47px;
+    width: 57px;
+    margin-left: 0%;
+}
+#div1{
+    color: white;
+}
+.msg-style{
+    font-size: 24px;
+    font-family: fantasy;
+    color: white;
+    margin: 12px;
+    /* border: 1px solid white; */
+}
+
+#msg{
+    height: 25px;
+    width: 52vw;
+    display: block;
+    margin-bottom: 8px;
+    padding: 8px;
+    border-radius: 16px;
+    font-size: 21px;
+    font-family: fantasy;
+    color: black;
+    border: 3px solid #e9f9f7;
+    margin:10px;
+}
+.btn-style{
+    height: 36px;
+    width: 25vw;
+    border-radius: 16px;
+    background: teal;
+    color: white;
+}
+    </style>
+
+</html>
